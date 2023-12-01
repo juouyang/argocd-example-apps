@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: gcr.io/google-samples/gb-frontend:v4
+        image: corelab/gb-frontend:v6
         env:
         - name: GET_HOSTS_FROM
           value: "dns"
